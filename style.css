@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width:100%;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    border-bottom: 2px solid #000000;
+}
+.bi1{
+    color: black;
+    border:2px solid #000000;
+    background-color: #eff2eb;;
+    position :absolute;
+    top: 20px;
+    right: 44em;
+    padding: 5px;
+    margin: 0;
+
+}
+.bi1:hover{
+    border-radius:50%;
+}
+
+.searchbox{
+    position: relative;
+    width: 30%;
+}
+.logo {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.nav-links a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+.content{
+    height: 60em;
+    background-image: url("images/bg1.jpg");
+}
+.content h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+    color: black;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+
+.content .centerbox {
+    display: inline-block;
+    position:absolute;
+    top: 35em;
+    bottom:250px;
+    left:15em;
+    height: 30%;
+    width: 65em;
+    background-color: blur;
+    padding-top:150px;
+    border-radius: 50% ;
+    border:2px #000000 solid ;
+  }
+  
+ 
+.div1 {
+    border: 2px solid #000000;
+    position: relative;
+    padding-left:10px;
+    padding-top:50px;
+    text-align: center; 
+    top: -6.5em;
+    left:15em;
+    width: 200px;
+    height: 120px;
+    color: #fff;
+    background-color: transparent;
+    color: #000000;
+    display: inline-block;
+    transition: all 0.3s ease;
+    
+  }
+.div2{
+    border: 2px solid #000000;
+    margin-left: -8px;
+    margin-left:-5px;
+    text-align: center; 
+    padding-top:50px;
+    position: relative;
+    /* border:  2px #000000 solid; */
+    top:-10em;
+    left:15em;
+    width: 200px;
+    height: 120px;
+    background-color: transparent;
+    color: #000000;
+    display: inline-block;
+    transition: all 0.3s ease;
+
+  }
+.div3 {
+    border: 2px solid #000000;
+    margin-left:10px;
+    text-align: center; 
+    color: #fff;
+    position: relative;
+    padding-top: 60px; 
+    top:-7.5em;
+    left:14em;
+    width: 200px;
+    height: 120px;
+    background-color: transparent;
+    color: #000000;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+
+.div1:hover, .div2:hover, .div3:hover {
+    background-color: #3a0775;
+    border-radius: 50px;
+    box-shadow: 0 0 80px 10px pink;
+}
